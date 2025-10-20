@@ -68,6 +68,7 @@ public class CM1_23 {
         for (int a = 0; a < 2; a++) {
             System.out.printf("%-30s %-8.1f %-8.1f %-8.1f %-12.1f %-12s %s%n", matkul[a], utsData[a], uasData[a], tugasData[a], average[a], grade[a], (status[a] ? "Lulus" : "Tidak Lulus"));
         }
+
         double finalAvg = (average[0] + average[1]) / 2;
         System.out.printf("Rata-rata Nilai Akhir: %.2f%n", finalAvg);
         System.out.println("Status Kelulusan: " + (finalAvg >= 70 ? "Lulus" : "Tidak Lulus"));
